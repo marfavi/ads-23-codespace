@@ -3,7 +3,7 @@ FROM alpine:latest
 
 # Set environment variables for Python and Java versions
 ENV PYTHON_VERSION 3.8.0
-ENV JAVA_VERSION 11
+ENV JAVA_VERSION 17
 
 # Install pyenv and dependencies
 RUN apk update && \
